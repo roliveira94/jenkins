@@ -1,0 +1,11 @@
+[localhost]
+127.0.0.1  ansible_connection=local
+
+[live]
+ec2-54-158-34-18.compute-1.amazonaws.com  ansible_user=ubuntu
+
+[web]
+ec2-34-227-194-240.compute-1.amazonaws.com  ansible_user=ubuntu
+
+[jenkins]
+ec2-54-209-184-64.compute-1.amazonaws.com  ansible_user=ubuntu
